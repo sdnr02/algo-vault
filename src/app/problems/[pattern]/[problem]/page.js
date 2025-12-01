@@ -9,6 +9,8 @@ import groupAnagrams from '@/data/problems/group-anagrams';
 import topKFrequent from '@/data/problems/top-k-frequent';
 import encodeDecodeStrings from '@/data/problems/encode-decode-strings';
 import productExceptSelf from '@/data/problems/product-except-self';
+import validSudoku from '@/data/problems/valid-sudoku';
+import longestConsecutive from '@/data/problems/longest-consecutive';
 
 const problemsMap = {
   'container-water': containerWater,
@@ -19,6 +21,8 @@ const problemsMap = {
   'top-k-frequent': topKFrequent,
   'encode-decode-strings': encodeDecodeStrings,
   'product-except-self': productExceptSelf,
+  'valid-sudoku': validSudoku,
+  'longest-consecutive': longestConsecutive,
 };
 
 const visualizerMap = {
@@ -30,6 +34,8 @@ const visualizerMap = {
   'top-k-frequent': dynamic(() => import('@/components/visualizers/TopKFrequentVisualizer')),
   'encode-decode-strings': dynamic(() => import('@/components/visualizers/EncodeDecodeStringsVisualizer')),
   'product-except-self': dynamic(() => import('@/components/visualizers/ProductExceptSelfVisualizer')),
+  'valid-sudoku': dynamic(() => import('@/components/visualizers/ValidSudokuVisualizer')),
+  'longest-consecutive': dynamic(() => import('@/components/visualizers/LongestConsecutiveVisualizer')),
 };
 
 export default async function ProblemPage({ params }) {

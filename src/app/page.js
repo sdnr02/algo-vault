@@ -9,6 +9,8 @@ import groupAnagrams from '@/data/problems/group-anagrams';
 import topKFrequent from '@/data/problems/top-k-frequent';
 import encodeDecodeStrings from '@/data/problems/encode-decode-strings';
 import productExceptSelf from '@/data/problems/product-except-self';
+import validSudoku from '@/data/problems/valid-sudoku';
+import longestConsecutive from '@/data/problems/longest-consecutive';
 
 const problemDataMap = {
   'container-water': containerWater,
@@ -19,6 +21,8 @@ const problemDataMap = {
   'top-k-frequent': topKFrequent,
   'encode-decode-strings': encodeDecodeStrings,
   'product-except-self': productExceptSelf,
+  'valid-sudoku': validSudoku,
+  'longest-consecutive': longestConsecutive,
 };
 
 export default function Home() {

@@ -12,7 +12,8 @@ const patterns = [
       'top-k-frequent',
       'encode-decode-strings',
       'product-except-self',
-      'valid-sudoku' 
+      'valid-sudoku',
+      'longest-consecutive'
     ]
   },
   {
